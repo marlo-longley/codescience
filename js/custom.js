@@ -67,6 +67,15 @@ employeeArray.push(
 );//array push
 
 
+
+var index;
+for (index = 0; index < employeeArray.length; ++index) {
+    console.log(a[index]);
+    
+}
+
+
+
 });
 
 

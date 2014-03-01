@@ -5168,7 +5168,7 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 800px;
+    width: 1000px;
     margin: 30px auto;
   }
   .modal-content {
@@ -5181,7 +5181,7 @@ button.close {
 }
 @media (min-width: 992px) {
   .modal-lg {
-    width: 900px;
+    width: 1000px;
   }
 }
 .tooltip {
@@ -5800,6 +5800,12 @@ button.close {
   font-weight: normal;
   font-style: normal;
 }
+/*
+
+@modal-lg:                    1000px;
+@modal-md:                    1000px;
+@modal-sm:                    300px;
+*/
 /* @font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif; */
 /* custom */
 body {
@@ -6052,13 +6058,36 @@ ul.jobs-nav li a:hover {
 }
 .team-modal .modal-header {
   background: url(../img/modal-header.jpg);
-  height: 100px;
+  height: 150px;
+}
+.team-modal .modal-header .close {
+  color: #ff4615;
+  opacity: 1;
 }
 .team-modal .modal-content {
   background-color: #ffffff;
 }
-.team-modal .modal-content p {
+.team-modal .modal-content p,
+.team-modal .modal-content h3 {
   text-align: left;
+}
+.team-modal .modal-content p {
+  line-height: 26px;
+}
+.team-modal .modal-content h4 {
+  color: #ff4615;
+}
+.team-modal .headshot {
+  margin-top: -150px;
+  float: left;
+}
+.team-modal .headshot img {
+  border: 2px solid #523333;
+  margin: 20px 40px 20px 20px;
+}
+.team-modal .group {
+  margin-top: 70px;
+  border: 2px solid #523333;
 }
 body#page div.bg3.footer p,
 body#page div.bg3.footer {
