@@ -1,0 +1,345 @@
+// Bootstrap framework
+@import "bootstrap.less";
+
+
+// Project specific stuff
+@import "variables-custom.less";
+
+
+/* custom */ 
+
+//general 
+
+body {
+  padding-top: 100px;
+  background-image: url(../img/bg0.jpg);
+  color: @white;
+  text-align: left;
+  font-family: @font-family-sans-serif;
+}
+
+a {color: @cs-orange}
+
+a:hover {text-decoration: underline; color: @cs-orange}
+
+
+body#page {
+	background-image: url(../img/bg-blue.jpg);
+	color: @black;
+}
+
+.row  {
+	padding: @padding-standard 0;
+}
+
+.row h2, .row h3 {
+	margin-top: 0;
+}
+
+label {
+	color: @white
+}
+
+p {
+	font-size: @font-size-p;
+	line-height:@line-height-computed;
+	color: @white;
+}
+
+body#page p {
+	color: @black
+}
+
+.icon {
+	padding: 25px 0;
+	text-align: center;
+}
+
+//useful classes
+.bold {
+	font-family: @font-family-condensed-bold;
+}
+
+.underline {
+	text-decoration: underline
+}
+
+.italic {
+	font-style: italic;
+}
+
+.orange {color: @cs-orange}
+
+.padding-bottom {
+	padding-bottom:@padding-standard;
+}
+
+.padding-top {
+	padding-top:@padding-standard;
+}
+
+.clean-top {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.clean-bottom {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.center {text-align: center}
+
+//background imgs
+
+.bg0 {
+	background-image: url(../img/bg0.jpg)
+}
+
+/*
+.bg1 {
+	background-image: url(../img/bg1.jpg)
+}
+
+.bg2 {
+	background-image: url(../img/bg2.jpg)
+}
+*/
+
+.bg3 {
+	background: url(../img/bg0.jpg)
+}
+
+.who {
+	background: url(../img/shadow_who.png) repeat;
+}
+
+.jobs {
+	background: url(../img/bg-jobs.png) repeat;
+}
+
+/* sections */
+
+//nav
+
+.navbar {
+		background-color: @black;
+}
+
+ul.navbar-nav {
+	font-family: "Helvetica57-CondensedRoman";
+}
+
+ul.navbar-nav a.active, ul.navbar-nav a.active:hover {background-color: @cs-orange; color: @white}
+ul.nav.navbar-nav li a:hover {background-color: @cs-orange}
+//figure this out
+/* ul.nav.navbar-nav li:last-child a:hover {background-color: @cs-orange; padding-right: 10px} */
+
+.navbar div.container {
+	border-top: 5px solid @cs-orange;
+}
+
+ul.navbar-nav {
+	float: right;
+	color: @cs-gray;
+	text-transform: uppercase;
+}
+
+.nav > li:last-child > a {
+/* 	padding-right: 0; */
+}
+
+
+
+//jumbo
+.jumbo {
+	text-align: center;
+	font-family:"HelveticaLTStdRegular";
+	height: 560px;
+/* 	margin-top: 100px; */
+	background:url(../img/orange-shape.png) no-repeat center;
+}
+
+.jumbo h3 {
+	text-align: left;
+	font-size:@font-size-h3;
+	line-height: @line-height-computed*1.2;
+	color: @cs-gray;
+}
+
+.what p {
+	color: @cs-gray;
+	//makes icons line up
+	height: 200px;
+}
+
+//carousel
+.item {
+	background-color: @white; 
+	height: 450px;
+	padding: 20px;
+}
+
+.carousel-nav-container {
+	text-align: center
+}
+
+.carousel-nav-container ul {
+	background-color: #EDEDED;
+	height: 90px;
+	list-style: none;
+	padding-top: 20px
+}
+
+.carousel-nav-container ul li {
+	list-style: none;
+	padding:0 30px;
+	display: inline;
+}
+
+.carousel-inner h5, .carousel-inner p {
+	color: @black;
+}
+
+.carousel-inner img {
+	padding: 15px 0;
+}
+
+//who
+
+.who .icon {
+	text-align: left;
+}
+
+.who ul li > h3:not(:last-child) {
+	margin-bottom: 0;
+}
+
+/* .who a {color: @cs-orange} */
+
+//jobs
+
+/* #jobs-page li a {color: @cs-orange} */
+/*
+
+.jobs a {color: @cs-orange}
+*/
+
+#jobs-page img {
+	padding: 20px 0;
+}
+
+#jobs-page .row h4 {
+	line-height: 26px;
+}
+#jobs-page .row h4:first-child {
+		margin-top: 0;
+	}
+	
+
+.jobs-title {
+	padding-bottom: 0px;
+}
+
+.jobs-nav-container {
+	padding-top: 0;
+}
+
+ul.jobs-nav {
+	float: right;
+}
+
+ul.jobs-nav li {
+	display: inline;
+	list-style-type: none;
+	float: left;
+}
+
+/*
+ul.jobs-nav.nav li a {
+	color: @black
+}
+*/
+
+
+ul.jobs-nav > li > a {
+	padding: 5px 8px 0 8px;
+	}
+
+
+
+ul.jobs-nav a.active, ul.jobs-nav a.active:hover,ul.jobs-nav li a:hover {
+	/* background-color: @cs-orange; color: @white */
+/* 	border-bottom: 1px solid @cs-orange; */
+	background: none;
+	text-decoration: underline;
+}
+
+
+//
+
+//modal
+.modal-body {
+	text-align: center
+}
+
+//pages
+#page h1 {
+	border-bottom: 1px solid @cs-orange;
+	padding-bottom: 5px;
+}
+
+
+//responsive tabs
+
+.nav-tabs > li:last-child > a {
+padding: 10px 15px;
+}
+
+.nav-tabs > li > a {
+	color: @black;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+color: @black;
+background-color: @cs-orange;
+border: 1px solid #dddddd;
+border-bottom-color: transparent;
+cursor: default;
+}
+
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+text-decoration: none;
+background-color: @cs-orange;
+}
+
+#successes-page h3 {padding-top: @padding-standard}
+
+
+//team page
+#team-page h5 {text-align: center}
+
+#team-page .arrow {padding: 0; text-align: center}
+
+.team-modal .modal-header {
+	background: url(../img/modal-header.jpg);
+	height: 100px;
+}
+
+.team-modal .modal-content {
+	background-color: @white;
+}
+
+.team-modal .modal-content p {
+	text-align: left
+}
+
+
+
+body#page div.bg3.footer p, body#page div.bg3.footer {color: @white}
+
+
+.row.contact {height: 600px;}
+
+
+
+

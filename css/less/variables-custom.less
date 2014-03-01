@@ -1,0 +1,87 @@
+//custom variables for CodeScience.com
+
+//fonts and colors
+@font-face {
+    font-family: 'HelveticaNeueCondensedBold';
+    src: url('../fonts/helveticaneue-boldcond_3-webfont.eot');
+    src: url('../fonts/helveticaneue-boldcond_3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneue-boldcond_3-webfont.woff') format('woff'),
+         url('../fonts/helveticaneue-boldcond_3-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica57-CondensedRoman';
+    src: url('../fonts/helveticacd-webfont.eot');
+    src: url('../fonts/helveticacd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticacd-webfont.woff') format('woff'),
+         url('../fonts/helveticacd-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica67-CondensedMediumMd';
+    src: url('../fonts/helveticacdmed-webfont.eot');
+    src: url('../fonts/helveticacdmed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticacdmed-webfont.woff') format('woff'),
+         url('../fonts/helveticacdmed-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaLTStdRegular';
+    src: url('../fonts/helveticaltstd-roman_1-webfont.eot');
+    src: url('../fonts/helveticaltstd-roman_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaltstd-roman_1-webfont.woff') format('woff'),
+         url('../fonts/helveticaltstd-roman_1-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@cs-orange: #FF4615;
+@cs-gray: #ada0a0;
+
+@padding-standard: 40px;
+
+@modal-content-bg: #C6C6C6;
+@modal-lg: 900px;
+@modal-md: 800px;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+/* @font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif; */
+@font-family-sans-serif:  "Helvetica57-CondensedRoman", Helvetica, Arial, sans-serif;
+@font-family-condensed:  "Helvetica57-CondensedRoman", Helvetica, Arial, sans-serif;
+@font-family-condensed-bold: "HelveticaNeueCondensedBold", Helvetica, Arial, sans-serif;
+@font-family-serif:       Georgia, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-sans-serif;
+
+@font-size-base:          16px;
+@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
+@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+
+@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
+@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
+@font-size-h3:            ceil((@font-size-base * 1.5)); // ~24px
+@font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
+@font-size-h5:            @font-size-base;
+@font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
+@font-size-p:			  ceil((@font-size-base * 0.95)); //~12px
+
+//** Unit-less `line-height` for use in components like buttons.
+@line-height-base:        1.428571429; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+@line-height-computed:    floor((@font-size-base * @line-height-base)); // ~20px
+
+//** By default, this inherits from the `<body>`.
+@headings-font-family:    inherit;
+@headings-font-weight:    500;
+@headings-line-height:    1.1;
+@headings-color:          inherit;
