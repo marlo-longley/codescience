@@ -5,7 +5,7 @@
     <div class="container">
     
     <!-- jumbo row -->
-      <div class="row jumbo" data-scroll-index="0">
+      <div class="row jumbo anchor" data-scroll-index="0">
         <div class="col-md-10 col-md-offset-1">
           <img src="img/jumbo.png" class="padding-bottom">
           	<div class="col-md-7 col-md-offset-1">
@@ -18,7 +18,7 @@
       </div> <!-- /jumbo -->
       
       <!-- what row -->
-      <div class="row what" id="what" data-scroll-index="1">
+      <div class="row what anchor" id="what" data-scroll-index="1">
       	<div class="col-md-1">
       		<h3>WHAT</h3>
       	</div>
@@ -46,7 +46,7 @@
       </div> <!-- /what -->
       
       <!-- successes row -->
-      <div class="row successes" data-scroll-index="2">
+      <div class="row successes anchor" data-scroll-index="2">
 	      <div class="col-md-12">
 	      	<h3>SUCCESSES</h3>
 	      </div>
@@ -155,7 +155,7 @@
 <div class="bg1">
 	<div class="container">
 <!-- Example row of columns -->
-      <div class="row who" data-scroll-index="3">
+      <div class="row who anchor" data-scroll-index="3">
         <div class="col-md-1">
       		<h3>WHO</h3>
       	</div>
@@ -192,7 +192,7 @@
 <div class="bg2">
 	<div class="container">
       <!-- Example row of columns -->
-      <div class="row jobs" data-scroll-index="4">
+      <div class="row jobs anchor" data-scroll-index="4">
         <div class="col-md-1">
         	<h3>JOBS</h3>
 		</div>
@@ -202,9 +202,9 @@
 Let’s talk.</p>
 		  <p><a href="jobs#appexch">APPEXCHANGE PRODUCT MANAGER</a></p>
 		  <p><a href="jobs#cloudapp">CLOUD APPLICATION DEVELOPER</a></p>
-		  <p>PROJECT MANAGER</p>
-	      <p> SOLUTION ARCHITECT</p>
-		  <p>RECRUITER OF ALL TRADES</p>
+		  <p><a href="jobs#project">PROJECT MANAGER</p>
+	      <p><a href="jobs#solution">SOLUTION ARCHITECT</p>
+		  <p><a href="jobs#recruiter">RECRUITER OF ALL TRADES</p>
        </div>
         <div class="col-md-1">
            <a href="jobs"><div class="icon"><img src="img/btn-learn-sm.png"></div></a>

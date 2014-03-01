@@ -153,14 +153,14 @@
 	  		</div>
 	  	</div> <!-- /cols -->
 	</div> <!-- /row cloudapp-->
-	<div class="row" data-scroll-index="8" id="product">
+	<div class="row" data-scroll-index="8" id="project">
 		<div class="col-md-12">
-      		<h4 class="bold orange">Product Manager</h4>
+      		<h4 class="bold orange">Project Manager</h4>
       		<h4 class="underline">Location</h4><h4>National - preference to Chattanooga, San Francisco Bay, Atlanta, Los Angeles</h4>
       		<h4 class="underline">Role</h4>
       		<h4>Project Managers are responsible for making software development projects come to fruition and identifying the scope for the next phase. In this job, you'll manage small budgets, excessive client expectations, surly developers, an immature CEO, aloof architects, and an omnipresent clock loudly ticking away the days on your precious project plan. With the patience of a preschool teacher and the brawn of a linebacker, Project Managers focus on the scope while balancing quality, cost, and schedule. Besides spending a significant amount of time communicating, you will also design, build, and test significant portions of software applications. Because the position straddles the business and technical realms, Project Managers at CodeScience are exposed to more case studies than MBA hopefuls.</h4>
-	  		<img src="img/btn-learn-sm.png" data-toggle="collapse" data-target="#collapse-product">
-	  		<div id="collapse-product" class="collapse">
+	  		<img src="img/btn-learn-sm.png" data-toggle="collapse" data-target="#collapse-project">
+	  		<div id="collapse-project" class="collapse">
 		  		<h4 class="underline">Success Predictors</h4>
 		  		<ul>
 		  			<li>You've worked with big ERP systems and are ready to start delivering value quickly instead of taking part in a twenty body, three year, multi-million dollar experiment in corporate inefficiency</li>
@@ -198,7 +198,7 @@
 		  			<li>Use change sets to promote configuration and code from dev environments to production environments</li>
 		  		</ul>
 		  		<h4>To apply,<a href="mailto:recruiting@codescience.com"> click here</a></h4>
-		  		<h5><a data-toggle="collapse" data-target="#collapse-p">close</a></h5>
+		  		<h5><a data-toggle="collapse" data-target="#collapse-project">close</a></h5>
 	  		</div>
 	  	</div> <!-- /cols -->
 	</div> <!-- /row product-->

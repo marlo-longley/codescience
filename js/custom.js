@@ -3,7 +3,7 @@ $( document ).ready(function() {
 //parallax scrolling with offset for bootstrap top navbar
 $.scrollIt({
 	activeClass: 'active',
-	topOffset: -70 // offset (in px) for fixed top navigation non-mobile
+	//topOffset: -70 // offset (in px) for fixed top navigation non-mobile
 });
     	//init for bootstrap carousel with no auto scroll
     $('.carousel').carousel({
@@ -18,17 +18,38 @@ $.scrollIt({
     fakewaffle.responsiveTabs(['xs', 'sm']);
 
 
+
+
 //scroll to bottom problem
-window.onscroll = function(ev) {
+window.onscroll = function() {
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
     	$('.navbar ul.navbar-nav li a').removeClass('active');
         $('.navbar ul.navbar-nav li:last-child a').addClass('active');
+    }
+    if ((window.scrollY) <= 320) {
+        $('.navbar ul.navbar-nav li:first-child a').addClass('active');
     }
 };
 
 $('.navbar ul.navbar-nav li:last-child a').click(function() { 
 	this.addClass('active');
 });
+
+$('.navbar ul.navbar-nav li:first-child a').click(function() { 
+	this.addClass('active');
+});
+
+
+
+
+//anchor id
+var identifier = window.location.hash; //gets everything after the hashtag i.e. #home
+
+
+
+
+
+
 
 
 //employee modals gah

@@ -5841,6 +5841,9 @@ p {
   line-height: 22px;
   color: #ffffff;
 }
+.anchor {
+  padding-top: 90px;
+}
 body#page p {
   color: #000000;
 }
@@ -5928,7 +5931,7 @@ ul.navbar-nav {
 .jumbo {
   text-align: center;
   font-family: "HelveticaLTStdRegular";
-  height: 560px;
+  height: 400px;
   /* 	margin-top: 100px; */
   background: url(../img/orange-shape.png) no-repeat center;
 }

@@ -1,6 +1,6 @@
 <div class="bg3 footer">
       <div class="container">
-		  <div class="row contact" data-scroll-index="11">
+		  <div class="row contact anchor" data-scroll-index="11">
 			  <div class="col-md-1">
 				  <h3>CONTACT</h3>
 			</div>

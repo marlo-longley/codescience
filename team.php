@@ -7,7 +7,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-4">
-					<div class="icon"><img src="img/who-1.jpg"></div>
+					<div class="icon"><a data-toggle="modal" data-target="#witherspoonModal"><img src="img/who-1.jpg"></a></div>
 					<h5 class="bold">MIKE WITHERSPOON</h5>
 					<h5 class="italic orange">SOLUTION ARCHITECT AND COFOUNDER</h5>
 					<div class="arrow"><a data-toggle="modal" data-target="#witherspoonModal"><img src="img/arrow.png"></a></div>
